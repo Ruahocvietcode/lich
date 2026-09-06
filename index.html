@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lịch trực nội bộ - 27 lớp</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h1>📋 Lịch trực </h1>
+        <p class="subtitle">Chọn lớp của bạn và xem lịch trực tuần này</p>
+
+        <div class="week-label">
+            Tuần hiện tại: <span id="weekValue">...</span>
+        </div>
+
+        <!-- Thanh cuộn danh sách động -->
+        <div class="scroll-selector" id="scrollSelector">
+            <div class="scroll-list" id="scrollList"></div>
+        </div>
+
+        <button class="btn-primary" id="showScheduleBtn">🔍 Xem lịch trực</button>
+    </div>
+
+    <!-- Modal hiển thị kết quả -->
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <p>🏫 Kết quả trực tuần <strong id="modalWeek"></strong></p>
+            <p id="modalResult" class="highlight"></p>
+            <button class="modal-close" onclick="closeModal()">Đóng</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
