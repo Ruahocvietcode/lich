@@ -2,13 +2,13 @@
     // ===================== CÁC LỚP =====================
     const classes = [
         "", "10TO", "10TI", "10LI", "10HO", "10SI", "10VA", "10SU", "10DI", "10TA1", "10TA2",
-        "11TO", "11TI", "11LI", "11HO", "11SI", "11VA", "11SU", "11DI", "11TA",
+        "11TO", "11TI", "11LI", "11HO", "11SI", "11VA", "11SU", "11DI", "11TA1", "11TA2",
         "12TO", "12TI", "12LI", "12HO", "12SI", "12VA", "12SD", "12TA"
     ];
     const N = classes.length - 1;
 
     // ⚠️ Ngày bắt đầu tuần 1
-    const START_DATE = '2026-08-22';
+    const START_DATE = '2026-08-06';
 
     let selectedClassIndex = 1;
     let w = 1;                  
