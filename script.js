@@ -8,7 +8,7 @@
     const N = classes.length - 1;
 
     // ⚠️ Ngày bắt đầu tuần 1
-    const START_DATE = '2026-09-05';
+    const START_DATE = '2026-09-03';
 
     let selectedClassIndex = 1;
     let w = 1;                  
